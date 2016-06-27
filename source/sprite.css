@@ -1,0 +1,55 @@
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite.sprite-appStore {
+  background-position: -5px -5px;
+  width: 112px;
+  height: 39px;
+}
+.sprite.sprite-appStore_2x {
+  background-position: -127px -5px;
+  width: 224px;
+  height: 78px;
+}
+.sprite.sprite-burger {
+  background-position: -361px -5px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-burger_2x {
+  background-position: -431px -5px;
+  width: 120px;
+  height: 120px;
+}
+.sprite.sprite-cook {
+  background-position: -561px -5px;
+  width: 60px;
+  height: 60px;
+}
+.sprite.sprite-cook_2x {
+  background-position: -631px -5px;
+  width: 120px;
+  height: 120px;
+}
+.sprite.sprite-googlePlay {
+  background-position: -761px -5px;
+  width: 120px;
+  height: 39px;
+}
+.sprite.sprite-googlePlay_2x {
+  background-position: -891px -5px;
+  width: 240px;
+  height: 78px;
+}
+.sprite.sprite-money {
+  background-position: -1141px -5px;
+  width: 60px;
+  height: 32px;
+}
+.sprite.sprite-money_2x {
+  background-position: -1211px -5px;
+  width: 120px;
+  height: 64px;
+}

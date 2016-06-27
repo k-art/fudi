@@ -1,0 +1,33 @@
+.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+.sprite {
+  display: block;
+  background-image: 
+  url(../pic/spritesheet.png);
+  background-repeat: no-repeat;
+  
+
+  &.sprite-appStore {
+      .stitches-sprite(-5px, -5px, 112px, 39px);
+  }
+
+  &.sprite-burger {
+      .stitches-sprite(-5px, -54px, 60px, 60px);
+  }
+
+  &.sprite-cook {
+      .stitches-sprite(-75px, -54px, 60px, 60px);
+  }
+
+  &.sprite-googlePlay {
+      .stitches-sprite(-127px, -5px, 120px, 39px);
+  }
+
+  &.sprite-money {
+      .stitches-sprite(-145px, -54px, 60px, 32px);
+  }
+}
